@@ -1,4 +1,4 @@
-public class Number {
+class Number {
     public int i;
 }
 
