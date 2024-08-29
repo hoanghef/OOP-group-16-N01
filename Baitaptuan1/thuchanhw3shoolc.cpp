@@ -1,0 +1,10 @@
+public class Main {
+  public static void main(String[] args) {
+    int x = 100;
+    int y = 54  ;
+    if (x > y) {
+      System.out.println("x is greater than y");
+    }  
+  }
+}
+//Cac thanh vien da len w3schools de luyen tap
