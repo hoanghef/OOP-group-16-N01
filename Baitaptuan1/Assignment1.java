@@ -1,4 +1,6 @@
-
+class Number {
+    public int i;
+}
 public class Assignment1 {
     public static void main(String[] args) {
         //Tạo 2 đối tượng cho class Number
