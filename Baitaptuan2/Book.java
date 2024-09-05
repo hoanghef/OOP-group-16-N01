@@ -18,7 +18,7 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Book book = new Book("1984", "George Orwell", 1949);
+        Book book = new Book("Think big and kick ass", "Donal Trump", 2007);
         System.out.println(book.toString());
     }
 }
