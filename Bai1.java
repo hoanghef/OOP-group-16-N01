@@ -59,17 +59,14 @@ public class ContinuousSignal implements Signal {
     }
 
     public double getSignalValue(double time) {
-        // Tính giá trị tín hiệu liên tục theo công thức sóng sin
         return amplitude * Math.sin(2 * Math.PI * frequency * time + phase);
     }
 
     public double getPeriod() {
-        // Chu kỳ (T) là nghịch đảo của tần số: T = 1 / f
         return 1 / frequency;
     }
 
     public double getWavelength() {
-        // Bước sóng (λ) là vận tốc chia cho tần số: λ = v / f
         return speed / frequency;
     }
 
