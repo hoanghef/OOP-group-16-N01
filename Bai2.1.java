@@ -17,7 +17,6 @@ public class DiscreteSignal {
         return n == 0 ? 1 : 0;
     }
 
-    
     public double getSignalValue(int n) {
         double result = 0.0;
         for (int k : signalValues.keySet()) {
@@ -26,7 +25,6 @@ public class DiscreteSignal {
         return result;
     }
 
-    
     public void printSignal() {
         for (int k : signalValues.keySet()) {
             System.out.println("x(" + k + ") = " + signalValues.get(k));
@@ -35,8 +33,6 @@ public class DiscreteSignal {
 
     public static void main(String[] args) {
         DiscreteSignal signal = new DiscreteSignal();
-        
-   
         signal.setSignalValue(0, 1.0);
         signal.setSignalValue(1, 0.5);
         signal.setSignalValue(2, -0.5);
