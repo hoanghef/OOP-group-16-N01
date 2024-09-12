@@ -76,22 +76,3 @@ public class ContinuousSignal implements Signal {
     }
 }
 
-// Lớp kiểm thử
-public class Main {
-    public static void main(String[] args) {
-        double[] samples = {1, 0.5, -1, -0.5, 0};
-        DiscreteSignal discreteSignal = new DiscreteSignal(1.0, 50.0, 0.0, 340.0, samples);  // Vận tốc âm thanh là 340 m/s
-
-        ContinuousSignal continuousSignal = new ContinuousSignal(1.0, 50.0, 0.0, 340.0);
-
-        System.out.println(discreteSignal);
-        for (int i = 0; i < samples.length; i++) {
-            System.out.println("Discrete Signal at time " + i + ": " + discreteSignal.getSignalValue(i));
-        }
-
-        System.out.println(continuousSignal);
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Continuous Signal at time " + i + ": " + continuousSignal.getSignalValue(i));
-        }
-    }
-}
