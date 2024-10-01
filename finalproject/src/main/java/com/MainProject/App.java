@@ -1,5 +1,5 @@
 package com.MainProject;
 
-public class  ProductOrderApp {
+public class  App {
     
 }

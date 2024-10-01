@@ -1,4 +1,4 @@
-package com.MainProject;
+package com.MainProject.View;
 
 public class Product {
     private String id;
